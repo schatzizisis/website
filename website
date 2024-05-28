@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's FIFA World Cup</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div id="scroll-bar" class="scroll-bar"></div>
+    <header class="hero-header">
+        <div class="container">
+            <div class="logo">
+
+                <h1>Women's FIFA World Cup</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="us.html">US</a></li>
+                    <li><a href="europe.html">Europe</a></li>
+                    <li><a href="asia.html">Asia</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button onclick="window.location.href='#'">Sign In</button>
+                <button onclick="window.location.href='#'">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Welcome to our Women's FIFA World Cup Project</h2>
+                    <p>Explore how the Women's FIFA World Cup promotes gender equality and the globalization of women's
+                        sports.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="container">
+                <div class="content-box">
+                    <h2>Project Overview</h2>
+                    <p>This project focuses on the Women's FIFA World Cup and its role in promoting gender equality and
+                        the globalization of women's sports.</p>
+                    <h3>Research Questions</h3>
+                    <ul>
+                        <li>How has the Women’s FIFA World Cup contributed to promoting gender equality in sports?</li>
+                        <br>
+                        <li>What role has the Women’s FIFA World Cup played in the globalization of women’s football?
+                        </li>
+                        <br>
+                        <li>How does media coverage of the World Cup affect the public view and support for women’s
+                            sports?</li>
+
+                    </ul>
+                </div>
+
+
+                <div class="media">
+                    <img src="https://media.cnn.com/api/v1/images/stellar/prod/230718090531-usa-women-world-cup-winners-2019.jpg?c=original"
+                        alt="US Women's National Team">
+
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Women's FIFA World Cup. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="cookie-consent-popup" class="cookie-consent-popup">
+        <div class="popup-content">
+            <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of
+                cookies.</p>
+            <button id="allow-cookies" class="btn-allow">Allow Cookies</button>
+            <button id="deny-cookies" class="btn-deny">Deny Cookies</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+    </div>
+</body>
+
+</html>
+
+<head>
